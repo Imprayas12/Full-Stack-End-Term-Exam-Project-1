@@ -1,0 +1,39 @@
+body {
+    background-color: rgb(102,102,0);
+}
+
+.header {
+    margin: auto;
+    margin-top: 40px;
+    border: 1px solid black;
+    text-align: center;
+    height: 200px;
+    width: 60%;
+    padding-top: 40px;
+    background-image: url('https://images.unsplash.com/photo-1610465299993-e6675c9f9efa?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8bGFwdG9wJTIwd2FsbHBhcGVyfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=1000&q=60');
+    background-size: contain;
+    color: white;
+    border-radius: 10px;
+}
+
+.main-content {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.card-1 {
+    width: 40%;
+    margin-left:270px;
+}
+
+.card-body-1 {
+    height: 500px;
+    overflow: auto;
+}
+
+.right-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}

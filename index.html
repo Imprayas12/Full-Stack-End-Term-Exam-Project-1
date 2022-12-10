@@ -5,10 +5,66 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Project-1</title>
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/js/bootstrap.min.js"> -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div class="header">
+        <h1>JavaScript Playground</h1>
+    </div>
+    <br><br><br>
+    <div class="main-content">
+    <div class="card card-1">
+        <div class="card-header">
+          Book Title
+        </div>
+        <div class="card-body card-body-1">
+          <h5 class="card-title">Special title treatment</h5>
+          <p class="card-text" id = "paragraph">With supporting text below as a natural lead-in to additional content.</p>
+          <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+        </div>
+      </div>
+      <div class="right-content">
+      <div class="card" style="height: 50px; background-color: white!important;">
+        <div class="card-header">
+          <h3>Search</h3>
+        </div>
+        <div class="input-group">
+            <div class="form-outline">
+              <input type="search" id="form1" class="form-control" />
+
+            </div>
+            <button type="button" class="btn btn-primary">
+              <i class="fas fa-search"></i>
+            </button>
+          </div>
+      </div>
+      <div class="card">
+        <div class="card-header">Books Available</div>
+        <div class="card-body">
+            <a href="#" class = "movie-name" onclick="getFile('AliceInWonderland.txt')">AliceInWonderland</a>
+            <br>
+            <a href="#" class = "movie-name" onclick="getFile('JekyllAndHyde.txt')">JeykllandHyde</a>
+            <br>
+            <a href="#" class = "movie-name" onclick="getFile('LOTR.txt')">LOTR</a>
+        </div>
+    </div>
+    <div class="card">
+        <div class="card-header"><h4>Most Used Words</h4></div>
+        <div class="card-body"></div>
+    </div>
+    <div class="card">
+        <div class="card-header"><h4>Least Used Words</h4></div>
+        <div class="card-body"></div>
+    </div>
+    </div>
+      </div>
+      <br><br>
+  <a href="index2.html" style="margin-left:100px;"><h1>NEXT</h1></a>
+    </body>
+    <script type="module" src="script.js"></script>
+    <!-- <script type = "module"src="require.js"></script> -->
     
-</body>
-<script src="script.js"></script>
 </html>
