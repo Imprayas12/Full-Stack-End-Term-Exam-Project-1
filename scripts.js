@@ -34,6 +34,10 @@ function checkForMatch() {
     unflipCards();
     number_of_tries -= 1;
     document.getElementById('no-of-tries').innerText = "No of tries remaining : " + number_of_tries; 
+    if(number_of_tries == 0) {
+      setTimeout(alert("Game Over"),2000);
+      window.location.reload();
+    }
   }
 }
 
